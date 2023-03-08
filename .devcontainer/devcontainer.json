@@ -1,0 +1,27 @@
+{
+    "name": "felis",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "app" ,
+    "workspaceFolder": "/go/src/work",
+    "customizations": {
+      "vscode": {
+        "settings": {
+            "terminal.integrated.shell.linux": "/bin/bash",
+            "go.toolsManagement.checkForUpdates": "off",
+            "go.gopath": "/go",
+            "go.gocodeAutoBuild": true,
+            "go.formatTool": "gofmt",
+            "go.useLanguageServer": true,
+            "editor.formatOnSave": false,
+            "[go]": {
+              "editor.formatOnSave": true
+        },
+        "extensions": [
+            "golang.Go",
+            "usernamehw.errorlens",
+            "eamodio.gitlens"
+        ]
+        }
+        }
+    }
+}
