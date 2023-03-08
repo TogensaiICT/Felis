@@ -1,6 +1,6 @@
 {
     "name": "felis",
-    "dockerComposeFile": ["../docker-compose.yml"],
+    "dockerComposeFile": ["./docker-compose.yml"],
     "service": "app" ,
     "workspaceFolder": "/go/src/work",
     "customizations": {
