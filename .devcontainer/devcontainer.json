@@ -1,7 +1,8 @@
 {
     "name": "felis",
-    "dockerComposeFile": ["./docker-compose.yml"],
-    "service": "app" ,
+    //"dockerComposeFile": ["../docker-compose.yml"],
+    //"service": "app" ,
+    "dockerFile": "DockerFile",
     "workspaceFolder": "/go/src/work",
     "customizations": {
       "vscode": {
