@@ -6,7 +6,6 @@
     "customizations": {
       "vscode": {
         "settings": {
-            "terminal.integrated.shell.linux": "/bin/bash",
             "go.toolsManagement.checkForUpdates": "off",
             "go.gopath": "/go",
             "go.gocodeAutoBuild": true,

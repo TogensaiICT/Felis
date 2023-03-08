@@ -1,4 +1,4 @@
-FROM golang:1.15.6
+FROM golang:1.20.2
 
 RUN apt update \
   && apt install -y neovim
